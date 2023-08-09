@@ -24,6 +24,7 @@ body {
   width: 500px;
   height: 220px;
   display: block;
+
 }
 
 .hero h1,
@@ -48,6 +49,7 @@ body {
 
 .model-overlay {
   display: none;
+
 }
 
 .model-overlay button i {
