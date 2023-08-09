@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("images.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.banner,.model-overlay {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #fff;
+  background: #fff;
+  width: 500px;
+  height: 220px;
+  display: block;
+}
+
+.hero h1,
+.model-overlay .modal-container h3 {
+  font-size: 50px;
+  padding: 40px;
+}
+
+.banner .btn {
+  font-size: 25px;
+  width: 230px;
+  background-color: rgb(112, 112, 240);
+  color: #fff;
+  border-radius: 15px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.banner .btn:hover {
+  background-color: aqua;
+}
+
+.model-overlay {
+  display: none;
+}
+
+.model-overlay button i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+}
